@@ -98,6 +98,7 @@ Left side, you can see the HDL files. The right side of the window has Worklib a
 Worklib is the directory where all the compiled codes are stored, while Snapshot will have the output of elaboration, which in turn goes for simulation.
 
 To perform the function simulation, the following three steps are involved: Compilation, Elaboration and Simulation.
+<img width="1918" height="1019" alt="Screenshot 2025-10-04 091141" src="https://github.com/user-attachments/assets/be6ba8f1-325e-4814-b400-88efc0ec1ac7" />
 
 #### Fig 3: Nclaunch Window
 
@@ -127,6 +128,7 @@ After compilation, it will come under worklib. You can see on the right side win
 select the test bench and compile it. It will come under Worklib. Under Worklib, you can see the module and test bench.
 
 The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
+
 
 #### Step 2: Elaboration:
 To check the port connections in a hierarchical design
@@ -189,6 +191,7 @@ The Liberty files are present in the library path,
 • Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist. Or use source run.tcl command in the terminal window to view the netlist, and a log file will be created in the working folder.
 
 #### Fig 8: Synthesis RTL Schematic using case and ifelseif construct
+
 
 #### Fig 9: Area report of case and ifelseif construct
 

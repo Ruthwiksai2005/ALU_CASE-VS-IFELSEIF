@@ -210,6 +210,7 @@ The Liberty files are present in the library path,
 <img width="1919" height="1070" alt="Screenshot 2025-10-13 112213" src="https://github.com/user-attachments/assets/1fbdea21-bfc6-4119-99ed-1f879b0f716f" />
 
 #### Fig 11: Tabulate Area,Power and Timing Report Comparision of ALU using case and ifelseif construct
+![WhatsApp Image 2025-10-31 at 17 50 02_0e4f754a](https://github.com/user-attachments/assets/036d98b9-d233-47f3-baef-df4130288398)
 
 ## Result
 The 32-bit ALU implemented using behavioural case statements and if–elseif constructs was successfully verified under Incisive (ncvlog/ncsim) for all tested vectors. Both implementations were functionally correct and synthesizable. Synthesis using Cadence Genus generated gate-level netlists along with area, timing, and power reports.
